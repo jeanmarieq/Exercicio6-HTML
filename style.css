@@ -63,23 +63,164 @@ nav ul li {
     display: flex;
 
 }
-#content{
-    background: white;
-    grid-area: conteudo;
+
+main{
+width: 100%;
+margin-top: 200px;
+}
+
+main .conteudo{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.conteudo .article {
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background:white;
+}
+
+.conteudo .article h3{
+    font-weight: 500;
+    color:black;
+    margin: 10px 0;
 }
 #lista{
     background: #8c5240;
     grid-area: vida;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .vida{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vida h3{
+    width: 100%;
+    font-size: 3em;
+    color:black;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 100px; 
+}
+
+.vida div{
+    width: 35%;
+    text-align: center;
+    margin: 0 10px ;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vida img{
+    width: 140px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.vida p{
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .artigo {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.artigo div{
+    width: 100%;
+    text-align: center;
+    margin: 0 10px ;
+    margin-bottom: 30px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.artigo h3{
+    width: 100%;
+    font-size: 3em;
+    color:black;
+    margin-bottom: 50px;
+    margin:initial;
+    margin-bottom: 100px; 
+}
+.artigo img{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.artigo p{
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
 }
 
 #sobre{
     background: #261611;
     grid-area: informacion;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 25vh 0;
+   
+}
+
+.sobre-nos h2{
+    width: 100%;
+    text-align: center;
+    font-size: 4.6em;
+    font-weight: 500;
+    padding: 15px 0;
+    color:white;
+}
+
+.sobre-nos p{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+#content{
+    background: white;
+    grid-area: conteudo;
 }
 
 footer{
     background: #774535;
     grid-area: pê;
+}
+
+footer p{
+    color: white;
+    font-weight: 500;
+    text-align: center;
 }
 
 /* .container_body{ 
